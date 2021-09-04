@@ -28,8 +28,8 @@ var transport = mailer.createTransport({
     secure: false,
     requireTLS: true,
     auth: {
-        user: '17bmiit108@gmail.com',
-        pass: '$N!k$7797'
+        user: '',
+        pass: ''
     }
 });
 
@@ -51,7 +51,7 @@ app.get("/register", (req, res) => {
 app.post("/register", (req, res) => {
     try{
         var infodata={
-            from:'17bmiit108@gmail.com',
+            from:'',
             to:req.body.user,
             subject:'Please Verify Code By Email',
             text:'The verification code is '+ getRandomNumber(6),
