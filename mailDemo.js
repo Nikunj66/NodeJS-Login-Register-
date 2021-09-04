@@ -6,15 +6,15 @@ var transport = mailer.createTransport({
   secure: false,
   requireTLS: true,
   auth: {
-    user: '17bmiit108@gmail.com',
-    pass: '$N!k$7797',
+    user: '',
+    pass: '',
   }
 
 });
 
 var detail = {
-  from: '17bmiit108@gmail.com',
-  to: '17bmiit108@gmail.com',
+  from: '',
+  to: '',
   subject: 'Hello Nik',
   text: 'Good Morning',
 };
